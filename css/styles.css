@@ -442,24 +442,22 @@ body {
   Navigation
 ***********************/
 .navigation {
-  background-color: #fff;
+  background-color: #000;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
 }
 .navigation > .content{
-  height: 6.375rem;
+  height: 3.375rem;
 }
 .navigation .links {
   float: left;
   font-family: 'Raleway', sans-serif;
-  color: #838994;
+  color: #fff;
   font-size: 1.04rem;
-  margin-top: 4.7rem;
-  margin-bottom: 0;
+  margin-top: 1.7rem;
   -webkit-font-smoothing: antialiased;
-  padding: 0;
 }
 .navigation .links li {
   display: inline-block;
@@ -471,10 +469,7 @@ body {
 }
 .navigation .links li:hover{
   cursor: pointer;
-  color: #333;
-}
-.navigation .logo {
-  float: left;
+  color: #D9DBD0;
 }
 ul {
   list-style: none;
@@ -494,7 +489,7 @@ ul {
 .intro h3 {
   color: white;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
 .intro h1 {
   margin-top: 17.5rem;
