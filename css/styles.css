@@ -456,12 +456,18 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 1.04rem;
-  margin-top: 1.7rem;
+  vertical-align: middle;
   -webkit-font-smoothing: antialiased;
+  hieght: 100%;
 }
 .navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
+  height: 100%;
+}
+.navigation a {
+  display: inline-block;
+  height: 100%
 }
 .navigation .links .active {
   color: #4c5058;
@@ -482,8 +488,8 @@ ul {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 43.938rem;
   overflow: auto;
+  top-margin:;
 }
 .intro h1,
 .intro h3 {
