@@ -479,6 +479,7 @@ body {
 }
 ul {
   list-style: none;
+  margin-left: 1em;
 }
 /**********************
   Introduction
@@ -489,7 +490,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
-  top-margin:;
+  margin-top: 1em;
 }
 .intro h1,
 .intro h3 {
