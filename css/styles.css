@@ -451,7 +451,7 @@ body {
   top: 0;
 }
 .navigation > .content{
-  height: 3.375rem;
+  height: 1.375rem;
 }
 .navigation .links {
   float: left;
@@ -460,12 +460,13 @@ body {
   font-size: 1.04rem;
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
-  hieght: 100%;
+  height: 100%;
 }
 .navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
   height: 100%;
+  font-weight: 500;
 }
 .navigation a {
   display: inline-block;
@@ -507,4 +508,14 @@ ul {
 .intro h3 {
   margin-top: 1.125rem;
   font-size: 1.563rem;
+}
+.intro-section, .location-section, .questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.questions-section a {
+  text-decoration: none;
+  color: #2B3026;
 }
