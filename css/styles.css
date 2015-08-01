@@ -449,11 +449,12 @@ body {
   border-bottom: 1px solid #DDD;
   z-index: 9999;
   top: 0;
+  padding-bottom: .6rem;
 }
 .navigation > .content{
   height: 1.375rem;
 }
-.navigation .links {
+.navigation .links a{
   float: left;
   font-family: 'Raleway', sans-serif;
   color: #fff;
@@ -461,6 +462,7 @@ body {
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
   height: 100%;
+  text-decoration: none;
 }
 .navigation .links li {
   display: inline-block;
@@ -476,13 +478,13 @@ body {
   color: #4c5058;
   font-weight: 500;
 }
-.navigation .links li:hover{
+.navigation .links a:hover{
   cursor: pointer;
   color: #D9DBD0;
 }
 ul {
   list-style: none;
-  margin-left: 1em;
+  /*margin-left: 1em;*/
 }
 /**********************
   Introduction
@@ -518,4 +520,45 @@ ul {
 .questions-section a {
   text-decoration: none;
   color: #2B3026;
+}
+.footer {
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.social .icons {
+  padding-top: 1rem;
+  padding-left: 0;
+  margin-top: 0;
+}
+.social .icons > li {
+  border-radius: 1.25rem;
+  
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: .025rem 0;
+  text-align: center;
+  background-color: #fff;
+  list-style: none;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.social .icons > li:hover {
+  cursor: pointer;
+}
+.social .twitter {
+  color: #000;
+}
+.social .facebook {
+  color: #000;
+}
+.social .instagram {
+  color: #000;
+}
+.footer .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
 }
