@@ -528,6 +528,9 @@ ul {
   height: 100%;
   color: #fff;
 }
+.footer .content {
+  padding-bottom: .5rem;
+}
 .social .icons {
   padding-top: 1rem;
   padding-left: 0;
