@@ -564,3 +564,12 @@ ul {
   font-size: 0.9rem;
   font-weight: 300;
 }
+.projects .content{
+  margin: 0 auto;
+  text-align: center;
+}
+.blogintro {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 38em;
+}
